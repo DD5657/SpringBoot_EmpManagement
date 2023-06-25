@@ -32,4 +32,10 @@ public class EmployeeController {
 		return emprepo.save(employee);
 		
 	}
+	
+	@PostMapping("/updateEmployees")
+	public Employee updateEmployees(@RequestBody Employee employee) {
+		return emprepo.save(employee);
+		
+	}
 }
